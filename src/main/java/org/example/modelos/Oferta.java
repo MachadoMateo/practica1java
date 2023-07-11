@@ -2,7 +2,7 @@ package org.example.modelos;
 
 import java.time.LocalDate;
 
-public class oferta {
+public class Oferta {
     public int id;
     public String titulo;
     public String descripcion;
@@ -11,7 +11,7 @@ public class oferta {
     public double costopersona;
     public int idlocal;
 
-    public oferta() {
+    public Oferta() {
     }
 }
 

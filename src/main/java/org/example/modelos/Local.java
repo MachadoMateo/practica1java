@@ -1,6 +1,6 @@
 package org.example.modelos;
 
-public class local {
+public class Local {
 
 
     public int id;
@@ -9,6 +9,6 @@ public class local {
     public int ubicacion;
     public String descripcion;
 
-    public local() {
+    public Local() {
     }
 }

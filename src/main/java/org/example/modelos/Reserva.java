@@ -2,7 +2,7 @@ package org.example.modelos;
 
 import java.time.LocalDate;
 
-public class reserva {
+public class Reserva {
 
     public int id;
     public int idusuario;
@@ -10,6 +10,6 @@ public class reserva {
     public double costototal;
     public LocalDate fechareserva;
 
-    public reserva() {
+    public Reserva() {
     }
 }

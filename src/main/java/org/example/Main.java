@@ -1,19 +1,33 @@
 package org.example;
 
+import org.example.modelos.*;
+
 public class Main {
     public static void main(String[] args) {
-        //en este espacio es donde se crean los objetos
-
-        //crear variables pero no es una buena practica
 
 
-        //un objeto es una variable solo que es especial
+       int edad=26;
+       String nombre="Mateo";
+
+       Oferta  objetoOferta=new Oferta();
+       Local   objetoLocal= new Local();
+       Reserva objetoReserva= new Reserva();
+       Persona objetoPersona= new Persona();
+       Samurai objetoSamurai= new Samurai();
+        System.out.println(objetoSamurai.nombre);
 
 
+       Herramienta objetoHerramienta= new Herramienta();
+        System.out.println(objetoHerramienta.nombre);
 
 
+        Alimento objetoAlimento= new Alimento();
+        System.out.println(objetoAlimento.nombre);
 
-        //creo un objeto para acceder a sus atributos y metodos
+
+       //creando un objeto de la clase SAMURAI
+        //todo objeto es una VARIABLE
+
 
 
 

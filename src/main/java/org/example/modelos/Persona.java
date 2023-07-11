@@ -1,6 +1,6 @@
 package org.example.modelos;
 
-public class persona {
+public class Persona {
 
     public int id;
     public String documento;
@@ -8,6 +8,6 @@ public class persona {
     public String correo;
     public int ubicacion;
 
-    public persona() {
+    public Persona() {
     }
 }
